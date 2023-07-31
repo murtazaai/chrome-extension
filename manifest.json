@@ -1,0 +1,43 @@
+{
+	"manifest_version": 3,
+	"name": "Murtaza",
+	"version": "1.0001",
+
+	"action": {
+		"default_icon": {
+			"57": "assets/images/apple-icon-57x57.png",
+			"60": "assets/images/apple-icon-60x60.png",
+			"72": "assets/images/apple-icon-72x72.png"
+		},
+		"default_title": "Murtaza browser extension",
+		"default_popup": "popup.html"
+	},
+	"description": "Murtaza chrome extension",
+	"icons": {
+		"57": "assets/images/apple-icon-57x57.png",
+		"60": "assets/images/apple-icon-60x60.png",
+		"72": "assets/images/apple-icon-72x72.png",
+		"76": "assets/images/apple-icon-76x76.png",
+		"114": "assets/images/apple-icon-114x114.png",
+		"120": "assets/images/apple-icon-120x120.png",
+		"144": "assets/images/apple-icon-144x144.png",
+		"152": "assets/images/apple-icon-152x152.png",
+		"180": "assets/images/apple-icon-180x180.png"
+	},
+	"author": "native@murtazai.org",
+	"permissions": ["activeTab", "scripting"],
+	"background": {
+		"service_worker": "scripts/background.js"
+	},
+	"content_scripts": [
+		{
+		  "js": [
+			"scripts/content.js"
+		  ],
+		  "matches": [
+			"https://developer.chrome.com/docs/extensions/*",
+			"https://developer.chrome.com/docs/webstore/*"
+		  ]
+		}
+	  ]
+}

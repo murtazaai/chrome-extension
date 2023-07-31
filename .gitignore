@@ -1,0 +1,11 @@
+.idea
+node_modules
+coverage
+coverage.json
+
+#Buidler files
+cache
+artifacts
+
+.env
+typechain

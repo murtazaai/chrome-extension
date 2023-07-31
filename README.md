@@ -1,1 +1,1 @@
-# Murtaza browser plugin
+# Murtaza chrome extension
