@@ -1,1 +1,1 @@
-# murtaza
+# Murtaza browser plugin
