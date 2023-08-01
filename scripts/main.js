@@ -1,4 +1,4 @@
-console.log("Murtaza extension is up and running");
+console.log("chrome extension is up and running");
 
 var images = document.getElementsByTagName("assets/images");
 
@@ -11,8 +11,8 @@ var arr = document.getElementsByClassName("s-code-block");
 
 for (let i = 0; i < arr.length; i++) {
 	var btn = document.createElement("button");
-	btn.classList.add("murtaza_code_tar");
-	btn.appendChild(document.createTextNode("Murtaza"));
+	btn.classList.add("chrome_code_tar");
+	btn.appendChild(document.createTextNode("chrome"));
 	arr[i].appendChild(btn);
 	//styling the button
 	btn.style.position = "relative";
@@ -37,7 +37,7 @@ for (let i = 0; i < arr.length; i++) {
 	console.log("Appended");
 }
 
-var button = document.querySelectorAll(".murtaza_code_tar");
+var button = document.querySelectorAll(".chrome_code_tar");
 button.forEach((elm) => {
 	elm.addEventListener("click", (e) => {
 		navigator.clipboard.writeText(elm.parentNode.childNodes[0].innerText);

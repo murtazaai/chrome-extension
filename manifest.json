@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Murtaza",
+	"name": "chrome extension",
 	"version": "1.0001",
 
 	"action": {
@@ -9,10 +9,10 @@
 			"60": "assets/images/apple-icon-60x60.png",
 			"72": "assets/images/apple-icon-72x72.png"
 		},
-		"default_title": "Murtaza browser extension",
+		"default_title": "chrome extension",
 		"default_popup": "popup.html"
 	},
-	"description": "Murtaza chrome extension",
+	"description": "chrome extension",
 	"icons": {
 		"57": "assets/images/apple-icon-57x57.png",
 		"60": "assets/images/apple-icon-60x60.png",

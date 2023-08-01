@@ -1,1 +1,1 @@
-alert('Murtaza, chrome extension');
+alert('chrome extension');
