@@ -1,1 +1,1 @@
-alert('chrome extension');
+alert('chrome plug out');

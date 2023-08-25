@@ -1,4 +1,4 @@
-console.log("chrome extension is up and running");
+console.log("chrome plug out is up and running");
 
 var images = document.getElementsByTagName("assets/images");
 
