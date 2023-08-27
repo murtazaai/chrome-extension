@@ -1,1 +1,1 @@
-# chrome plug out
+# Google chrome (web browser) extension

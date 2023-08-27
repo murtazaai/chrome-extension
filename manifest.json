@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "chrome plug out",
+	"name": "Google chrome (web browser) extension",
 	"version": "1.0001",
 
 	"action": {
@@ -9,10 +9,10 @@
 			"60": "assets/images/apple-icon-60x60.png",
 			"72": "assets/images/apple-icon-72x72.png"
 		},
-		"default_title": "chrome plug out",
+		"default_title": "Google chrome (web browser) extension",
 		"default_popup": "popup.html"
 	},
-	"description": "chrome plug out",
+	"description": "Google chrome (web browser) extension",
 	"icons": {
 		"57": "assets/images/apple-icon-57x57.png",
 		"60": "assets/images/apple-icon-60x60.png",
